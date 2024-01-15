@@ -7,12 +7,12 @@ import numpy as np
 
 
 class Parameters():
-    n_epoch = 1
+    n_epoch = 100
     l_rate = 0.001
     weight_decay = 1e-5
     save_path = "savefile/"
     model_path = "savefile/"
-    batch_size = 3
+    batch_size = 8
     x_size = 512
     y_size = 256
     resize_ratio = 8
