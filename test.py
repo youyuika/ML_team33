@@ -46,7 +46,7 @@ def Testing():
         lane_agent = agent.Agent()
     else:
         lane_agent = agent.Agent()
-        lane_agent.load_weights(29, "tensor(1.5174)")
+        lane_agent.load_weights(296, "tensor(1.6947)")
 
     ##############################
     # Check GPU
