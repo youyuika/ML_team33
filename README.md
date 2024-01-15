@@ -1,4 +1,4 @@
-## Dataset (CULane)
+## Dataset
 You can download the dataset from https://xingangpan.github.io/projects/CULane.html.
 
 If you download the dataset from the link, you can find some files and we recommand to make below structure. The folders have already been created. Please place the dataset into the corresponding folders.
@@ -11,13 +11,13 @@ If you download the dataset from the link, you can find some files and we recomm
       |------|----driver_161_90frame/
       |------|----driver_182_30frame/
       |
-      |----test_set/               # testing root 
+      |----test_set/                # testing root 
       |------|
       |------|----driver_37_30frame/
       |------|----driver_100_30frame/
       |------|----driver_193_90frame/
       |
-      |----list/               # testing root 
+      |----list/                    # testing root 
       |------|
       |------|----test_split/
       |------|----test.txt
