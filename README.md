@@ -34,14 +34,14 @@ You can run "test.py" for testing, and it has some mode like following functions
 - mode 2 : Run the model on the given image. If you want to use this mode, enter your image path at line 99 in "test.py"
 - mode 3 : Test the model on whole test set, and save result as json file.
 
-You can change mode at line 22 in "parameters.py".
+You can change mode at line 23 in "parameters.py".
 
 If you want to use other trained model, just change following 2 lines.
 ```
 # In "parameters.py"
 line 13 : model_path = "<your model path>/"
 # In "test.py"
-line 42 : lane_agent.load_weights(<>, "tensor(<>)")
+line 49 : lane_agent.load_weights(<>, "tensor(<>)")
 ```
 
 
@@ -58,5 +58,5 @@ If you want to train from a trained model, just change following 2 lines.
 # In "parameters.py"
 line 13 : model_path = "<your model path>/"
 # In "train.py"
-line 54 : lane_agent.load_weights(<>, "tensor(<>)")
+line 62 : lane_agent.load_weights(<>, "tensor(<>)")
 ```
